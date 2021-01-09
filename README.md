@@ -2,9 +2,9 @@
 
 - Activation de l'option pour le changement de filament
 - Prise en charge de mon plateau chauffant "custom"
-- L'inversion de moteurs X, Y et Z n'est pas necessaire contrairement aux anciennes version Marlin pour Ultimaker
-- Configuration de la langue
-- Et réglage des PID et mm/s
+- L'inversion de moteurs X, Y et Z n'est pas necessaire contrairement aux anciennes versions de Marlin pour Ultimaker
+- Configuration de la langue en Français
+- Et réglages des PID et mm/s
 
 # Marlin 3D Printer Firmware
 
