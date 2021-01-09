@@ -1,3 +1,10 @@
+# Marlin configuré pour mon imprimante Ultimaker Original
+Activation de l'option pour le changement de filament
+Prise en charge de mon plateau choffant "custom"
+L'inversion de moteurs X, Y et Z n'est pas necessaire contrairement aux anciennes version Marlin pour Ultimaker
+Configuration de la langue
+Et réglage des PID et mm/s
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
