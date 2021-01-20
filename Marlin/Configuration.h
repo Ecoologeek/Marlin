@@ -85,7 +85,7 @@
  */
 
 // Show the Marlin bootscreen on startup. ** ENABLE FOR PRODUCTION **
-#define SHOW_BOOTSCREEN //VIVIS décommenté par défaut a commenter si besoin e place
+#define SHOW_BOOTSCREEN //VIVIS décommenté par défaut a commenter si besoin de place
 
 // Show the bitmap in Marlin/_Bootscreen.h on startup.
 //#define SHOW_CUSTOM_BOOTSCREEN
@@ -1861,7 +1861,7 @@
 //
 // ULTIMAKER Controller.
 //
-#define ULTIMAKERCONTROLLER //VIVIS décommenté
+//#define ULTIMAKERCONTROLLER //VIVIS à décommenter pour l'Ulticontroler
 
 //
 // ULTIPANEL as seen on Thingiverse.
@@ -2000,7 +2000,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER //VIVIS décommenté pour l'écran LCD plus grand
 
 //
 // ReprapWorld Graphical LCD
