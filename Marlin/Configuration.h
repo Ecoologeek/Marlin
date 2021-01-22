@@ -1796,7 +1796,7 @@
 //
 //  Set this option if CLOCKWISE causes values to DECREASE
 //
-//#define REVERSE_ENCODER_DIRECTION
+#define REVERSE_ENCODER_DIRECTION //VIVIS Pour que le potard de l'écran discount full graphic tourne dans le bon sens
 
 //
 // This option reverses the encoder direction for navigating LCD menus.
