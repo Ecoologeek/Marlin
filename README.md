@@ -6,7 +6,8 @@
 - Configuration de la langue en Français
 - Nivellement du plateau assisté
 - Changement de l'Ulticontroller par un écran Discount Full Graphic pour RMAPS
-- Réglages des PID et mm/s
+- Définition des PID et mm/s
+- Ajout d'un détecteur de fin de filament
 
 # Marlin 3D Printer Firmware
 
