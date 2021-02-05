@@ -134,8 +134,7 @@
 
 // Name displayed in the LCD "Ready" message and Info menu
 //#define CUSTOM_MACHINE_NAME "3D Printer"
-//#define MOTHERBOARD BOARD_ULTIMAKER //VIVIS
-#define CUSTOM_MACHINE_NAME "Ultimaker" //VIVIS
+//#define CUSTOM_MACHINE_NAME "Ultimaker" //VIVIS pas util ?
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -1184,8 +1183,9 @@
  * RAMPS-based boards use SERVO3_PIN for the first runout sensor.
  * For other boards you may need to define FIL_RUNOUT_PIN, FIL_RUNOUT2_PIN, etc.
  */
-//#define FILAMENT_RUNOUT_SENSOR
+#define FILAMENT_RUNOUT_SENSOR  //VIVIS activation du detecteur de filament
 #if ENABLED(FILAMENT_RUNOUT_SENSOR)
+  #define FIL_RUNOUT_PIN       11         //VIVIS on le detecteur  type endstop sur les pins 11 et GND du EXT3 de la "carte mère" (1.5.7)
   #define FIL_RUNOUT_ENABLED_DEFAULT true // Enable the sensor on startup. Override with M412 followed by M500.
   #define NUM_RUNOUT_SENSORS   1          // Number of sensors, up to one per extruder. Define a FIL_RUNOUT#_PIN for each.
   #define FIL_RUNOUT_STATE     LOW        // Pin state indicating that filament is NOT present.
@@ -1861,7 +1861,7 @@
 //
 // ULTIMAKER Controller.
 //
-//#define ULTIMAKERCONTROLLER //VIVIS à décommenter pour l'Ulticontroler
+//#define ULTIMAKERCONTROLLER //VIVIS à décommenter pour l'Ulticontroller
 
 //
 // ULTIPANEL as seen on Thingiverse.
